@@ -1,0 +1,116 @@
+body {
+  background-color: #2c2d30 !important;
+}
+a:hover {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #1ab394 !important;
+}
+.custom-btn {
+  color: #fff;
+  background-color: #1ab394;
+  border-radius: 10px;
+  padding: 10px 18px;
+  box-shadow: rgb(32 33 37) 3px 3px 3px, rgb(62 62 62) -3px -3px 3px;
+}
+.banner-right-sec img {
+  border-radius: 50%;
+  box-shadow: 3px 3px 3px #202125, -3px -3px 3px #3e3e3e;
+}
+.about-left-sec {
+  box-shadow: rgb(32 33 37) 3px 3px 3px, rgb(62 62 62) -3px -3px 3px;
+  background-color: rgb(44, 45, 48);
+  padding: 5px;
+  border-radius: 16px;
+}
+.skill-card {
+  /* background: #fff; */
+  border-radius: 10px;
+  padding: 12px 15px;
+  /* box-shadow: 3px 3px 2px 0px #1ab39478; */
+  border-radius: 16px;
+  color: #fff;
+  box-shadow: rgb(32 33 37) 3px 3px 3px, rgb(62 62 62) -3px -3px 3px;
+}
+.skill-card:hover {
+  background-color: #1ab394;
+  color: #fff;
+}
+.skill-card h5 {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.portfolio-card {
+  box-shadow: rgb(32 33 37) 3px 3px 3px, rgb(62 62 62) -3px -3px 3px;
+  background-color: rgb(44, 45, 48);
+  padding: 5px;
+  border-radius: 16px;
+}
+.portfolio-card img {
+  border-radius: 16px;
+  /* box-shadow: 3px 3px 8px 0px rgb(45 45 45 / 10%) */
+}
+.banner-sec {
+  margin-top: 80px;
+}
+.not-boxshadow {
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 30%);
+}
+.navbar {
+  transition: all 0.8s ease;
+}
+#scroll {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background: #1ab394;
+  text-indent: -9999px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+  opacity: 1;
+  z-index: 999;
+  display: none;
+}
+#scroll span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -12px;
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  border-bottom-color: #ffffff;
+}
+#scroll:hover {
+  background: #1ab3949e !important;
+  /* opacity: 0.5; */
+  filter: "alpha(opacity=100)";
+  -ms-filter: "alpha(opacity=100)";
+}
+
+/* common class */
+.color-green {
+  color: #1ab394;
+}
+.color-light-gray {
+  color: #d2d2d2 !important;
+}
+.border-radius-16 {
+  border-radius: 16px;
+}
+.bg-dark-gray {
+  background: #2c2d30 !important;
+}
+
+.font-weight-300 {
+  font-weight: 300;
+}
