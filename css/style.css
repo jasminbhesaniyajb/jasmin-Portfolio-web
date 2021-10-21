@@ -97,6 +97,24 @@ a:hover {
   -ms-filter: "alpha(opacity=100)";
 }
 
+.portfolio-overlay {
+  position: absolute;
+  top: 16px;
+  bottom: 0;
+  left: 23px;
+  right: 0;
+  height: 80%;
+  width: 85%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1ab39499;
+  border-radius: 16px;
+  margin: 0px 3px;
+}
+.portfolio-card:hover .portfolio-overlay {
+  opacity: 1;
+}
+
 /* common class */
 .color-green {
   color: #1ab394;
