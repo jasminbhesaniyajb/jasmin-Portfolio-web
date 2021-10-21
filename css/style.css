@@ -34,6 +34,7 @@ a:hover {
   border-radius: 16px;
   color: #fff;
   box-shadow: rgb(32 33 37) 3px 3px 3px, rgb(62 62 62) -3px -3px 3px;
+  transition: 0.5s ease;
 }
 .skill-card:hover {
   background-color: #1ab394;
@@ -106,7 +107,7 @@ a:hover {
   height: 80%;
   width: 85%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   background-color: #1ab39499;
   border-radius: 16px;
   margin: 0px 3px;
