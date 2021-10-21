@@ -19,6 +19,8 @@ a:hover {
 .banner-right-sec img {
   border-radius: 50%;
   box-shadow: 3px 3px 3px #202125, -3px -3px 3px #3e3e3e;
+  z-index: 10;
+  position: relative;
 }
 .about-left-sec {
   box-shadow: rgb(32 33 37) 3px 3px 3px, rgb(62 62 62) -3px -3px 3px;
@@ -116,7 +118,100 @@ a:hover {
 .portfolio-card:hover .portfolio-overlay {
   opacity: 1;
 }
+.banner-sec {
+  overflow: hidden !important;
+}
 
+/* animation css */
+.banner-sec .circle {
+  width: 85px;
+  height: 85px;
+  background: #1ab394;
+  border-radius: 50%;
+  opacity: 0.9;
+  position: absolute;
+  top: 150px;
+  right: 34px;
+  overflow: hidden;
+  animation: circling 18s linear infinite;
+  z-index: 11;
+}
+@keyframes circling {
+  0% {
+    transform: rotate(0deg) translate(-80px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(-80px) rotate(-360deg);
+  }
+}
+
+.banner-sec .circle-2 {
+  width: 55px;
+  height: 55px;
+  background: #fbdd62;
+  border-radius: 50%;
+  opacity: 0.9;
+  position: absolute;
+  top: 250px;
+  bottom: 250px;
+  left: 80px;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+  animation: circlereverse 22s linear infinite;
+  z-index: 11;
+}
+@keyframes circlereverse {
+  0% {
+    transform: rotate(0deg) translate(-275px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg) translate(-275px) rotate(360deg);
+  }
+}
+
+.banner-sec .floating {
+  width: 50px;
+  height: 50px;
+  background: #ff4274;
+  border-radius: 50%;
+  opacity: 0.8;
+  position: absolute;
+  top: 10px;
+  right: 40px;
+  z-index: 1;
+  animation: floating 5s linear infinite;
+}
+@keyframes floating {
+  0% {
+    transform: translate(0px);
+  }
+  50% {
+    transform: translate(-50px);
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+
+
+.banner-sec .square {
+  position: absolute;
+  bottom: 25px;
+  z-index: 0;
+  left: -10px;
+  animation: rotate 25s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* end animation css */
 /* common class */
 .color-green {
   color: #1ab394;
