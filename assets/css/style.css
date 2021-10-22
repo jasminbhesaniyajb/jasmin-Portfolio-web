@@ -225,7 +225,17 @@ a:hover {
 .bg-dark-gray {
   background: #2c2d30 !important;
 }
-
+.word-break {
+  word-break: break-word;
+}
 .font-weight-300 {
   font-weight: 300;
+}
+
+
+
+@media (max-width: 768px) {
+  .banner-left-sec h1 {
+    font-size: 1.8rem;
+  }
 }
