@@ -5,7 +5,9 @@ a:hover {
   text-decoration: none !important;
   color: #fff !important;
 }
-
+.navbar-toggler {
+  background: #ffffff9e !important;
+}
 .navbar-nav .nav-item .nav-link:hover {
   color: #1ab394 !important;
 }
